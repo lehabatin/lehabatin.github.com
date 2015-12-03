@@ -61,9 +61,7 @@ body
     color:#DAA520;
 }
 
-.learn-more a {
-  color: #00b0ff;
-}
+
 .neighborhood-guides {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
@@ -78,7 +76,10 @@ body
 .neighborhood-guides p {
     font-size: 15px;
     margin-bottom: 13px;
+    color:#00b0ff;
 }
 .learn-more p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
