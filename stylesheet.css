@@ -1,4 +1,4 @@
-﻿body
+body
 .nav a {
   color: #DAA520;
   font-size: 11px;
@@ -10,7 +10,10 @@
 .nav li {
   display: inline;
 }
-
+.nav li:hover {
+    color:pink;
+    background-color: aqua;
+}
 .jumbotron {
   background-image:url('http://fonday.ru/images/tmp/10/0/original/10024079QEAh0B4NU46dY1d1ICzgOf7GeY.jpg');
   height: 600px;
