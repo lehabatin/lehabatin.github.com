@@ -11,8 +11,9 @@ body
   display: inline;
 }
 .nav li:hover {
-    color:pink;
-    background-color: aqua;
+    border-radius: 2px solid #00b0ff;
+    color: white;    
+    background-color:#DAA520;
 }
 .jumbotron {
   background-image:url('http://fonday.ru/images/tmp/10/0/original/10024079QEAh0B4NU46dY1d1ICzgOf7GeY.jpg');
