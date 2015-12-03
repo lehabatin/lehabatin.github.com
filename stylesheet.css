@@ -20,6 +20,9 @@ body
     color:white;
     text-decoration: none;
 }
+.nav {
+    border-bottom: 4px solid #DAA520;
+}
 .jumbotron {
   background-image:url('http://fonday.ru/images/tmp/10/0/original/10024079QEAh0B4NU46dY1d1ICzgOf7GeY.jpg');
   height: 600px;
@@ -40,7 +43,7 @@ body
   font-weight: bold;
 }
 .jumbotron a {
-    color: #DAA520;
+    color: #007ea7;
 }
 .jumbotron p {
   font-size: 20px;
@@ -55,6 +58,7 @@ body
   font-family: 'Shift', sans-serif;
   font-size: 18px;
   font-weight: bold;
+    color:#DAA520;
 }
 
 .learn-more a {
@@ -65,8 +69,11 @@ body
     border-bottom: 1px solid #dbdbdb;
 }
 .neighborhood-guides h2 {
-    color: #393c3d;
-    font-size: 24px;
+    color: #003459;
+    font-size: 36px;
+    font-family: 'Shift', sans-serif;
+    
+    font-weight: 300;
 }
 .neighborhood-guides p {
     font-size: 15px;
