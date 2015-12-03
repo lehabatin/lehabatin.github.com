@@ -29,6 +29,7 @@ body
   background-repeat: no-repeat;
   background-size: cover;
   bottom: 100px;
+    position: inherit;
 }
 
 .jumbotron .container {
@@ -42,14 +43,11 @@ body
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
-.jumbotron a {
-    color: #007ea7;
-}
+
 .jumbotron p {
   font-size: 20px;
   color: #FFFACD;
 }
-
 
 .learn-more {
   background-color: #f7f7f7;
