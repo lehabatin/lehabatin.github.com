@@ -49,7 +49,9 @@ body
   font-size: 20px;
   color: #FFFACD;
 }
-
+.jumbotron {
+    border-bottom: 4px solid #DAA520; 
+}
 .learn-more {
   background-color: #f7f7f7;
 }
@@ -67,10 +69,10 @@ body
     border-bottom: 1px solid #dbdbdb;
 }
 .neighborhood-guides h2 {
-    color: #fa7921;
+    color: #FF7518;
     font-size: 36px;
     font-family: 'Shift', sans-serif;
-    
+    margin-left: 20px;
     font-weight: 300;
 }
 .neighborhood-guides p {
