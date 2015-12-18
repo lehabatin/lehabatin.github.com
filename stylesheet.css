@@ -1,28 +1,31 @@
 body
+.nav {
+    border-bottom: 4px solid #DAA520;
+    background-image: linear-gradient(to top,#f0dd9b, #f0efc8)
+}
 .nav a {
   color: #DAA520;
   font-size: 11px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
+  
 }
 
 .nav li {
   display: inline;
+    
 }
 .nav li:hover {
     border:2px solid #DAA520;
-    border-radius: 5px;
-       
+    border-radius: 5px;       
     background-color:#DAA520;
 }
 .nav a:hover {
     color:white;
     text-decoration: none;
 }
-.nav {
-    border-bottom: 4px solid #DAA520;
-}
+
 .jumbotron {
   background-image:url('http://fonday.ru/images/tmp/10/0/original/10024079QEAh0B4NU46dY1d1ICzgOf7GeY.jpg');
   height: 600px;
@@ -30,6 +33,7 @@ body
   background-size: cover;
   bottom: 100px;
     position: inherit;
+    border-bottom: 4px solid #DAA520;
 }
 
 .jumbotron .container {
@@ -80,5 +84,16 @@ body
 .learn-more p {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+footer p {
+    font-family: Arial , sans-serif;
+    font-size: 14px;
+    font-weight: bold;    
+    padding:2% 4% 2% 75%;
+    color:#DAA520;
+    background-image: linear-gradient(to bottom,#f0dd9b, #f0efc8)
+   }
+footer {
+    border-top:4px solid #FF7518;
+  
+}
 
